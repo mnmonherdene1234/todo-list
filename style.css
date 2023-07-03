@@ -1,0 +1,25 @@
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#task {
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: 1px solid black;
+  outline: none;
+  width: 80px;
+  transition: 0.3s;
+}
+
+#task:focus {
+  width: 150px;
+}
